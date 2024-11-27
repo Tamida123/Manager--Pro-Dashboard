@@ -1,0 +1,14 @@
+{
+  "name": "manager-pro-dashboard",
+  "version": "1.0.0",
+  "description": "a dashboard application",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./css/style.css -o ./css/global.css --watch"
+  },
+  "author": "tobi",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
